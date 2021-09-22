@@ -1,0 +1,67 @@
+html{
+    background: #F9FCFC;
+    color: #222;
+}
+
+body{
+    margin: auto;
+	display: flexbox;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    width: 1152px;
+    height: 1626px;  
+}
+
+p {
+	font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+input[type=text] {
+    width: 663px; /* Full width */
+    height: 43px;
+    background: #FFFFFF;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #0D0C0C; /*Gray border*/
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /*Make sure that padding and width stays in place */
+    margin-top: 6px; /*Add a top margin */
+    margin-bottom: 10px; /*Bottom margin*/
+ }
+
+ input[type=message]{
+    width: 663px;
+    height: 160px;
+    left: 238px;
+    top: 1041px;
+    background: #FFFFFF;
+    padding: 12px;
+    border: 1px solid #0D0C0C;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 6px; /*Add a top margin */
+    margin-bottom: 10px; /*Bottom margin*/
+ }
+ 
+ .container{
+    margin: auto;
+    width: 852px;
+    height: 657px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+ }
+
+
+.button {
+    margin-left: 62%;
+    width: 217px;
+    height: 40px;
+    background: #004DE6C2;
+    border-radius: 8px;
+  }
+  
